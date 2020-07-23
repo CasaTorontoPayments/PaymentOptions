@@ -2,186 +2,180 @@
 Theme Name: Casa Toronto
 
 */
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-	}
-	
-	
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-	.container{
-    max-width: 2200px;
-    max-height: 100px;
-    margin: 0 auto;
-    padding: 0 2%;
+.container {
+  max-width: 2200px;
+  max-height: 100px;
+  margin: 0 auto;
+  padding: 0 2%;
+  z-index: 2;
+  position: absolute;
+}
 
-	}
-	
+.center {
+  text-align: center;
+}
 
-	
-	.center{text-align: center;}
-	
-	.clear{clear: both;}
-	
-	/*Classes do meu site*/
-	header{
-	padding:8px 0;
-	}
-	
-	.logo{
-	float: left;
-	
-	}
-	
-	
-	.logo h2{
-	font-weight: normal;
-	font-size: 23px;
-	}
-	
-	.logo a{
-	color: pink;
-	text-decoration: none;
-	}
-	
-	.logo img {
-	background-color: white;
-	position: absolute;
-	z-index: 999;
-	
-	}
+.clear {
+  clear: both;
+}
 
-	.org2 {
-		padding: 80px;
-		left: 50px;
-	  }
-	
-	
+/*Classes do meu site*/
+header {
+  padding: 8px 0;
+}
 
-	section.main-bg{
-	position: relative;
-	width: 100%;
-	padding:300px 0 350px 0;
-	background-image: url('https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-	}
+.logo {
+  float: left;
+}
 
-	
-	
-	
-	
-	.overlay{
-	z-index: 1;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.5);
-	left: 0;
-	top: 0;
-    }
-    
+.logo h2 {
+  font-weight: normal;
+  font-size: 23px;
+}
+
+.logo a {
+  color: pink;
+  text-decoration: none;
+}
+
+.logo img {
+  background-color: white;
+  position: absolute;
+  z-index: 999;
+}
+
+section.main-bg {
+  position: relative;
+  width: 100%;
+  padding: 300px 0 350px 0;
+  background-image: url("https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+}
+
+
 .payments {
-    max-width: 2200px;
-    max-height: 100px;
-    margin: 0 auto;
-    padding: 0 5%;
-
+  max-width: 2200px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
-section.payments > .center{
-    display: flex;
-    
-
-}
-section.payments > .Line2{
-    max-width: 2200px;
-    max-height: 100px;
-    margin: 0 auto;
-    padding: 0 30%;
-    
-
+section.payments > .center {
+  display: flex;
 }
 
-.org{
- 
-    padding: 30px;
+
+section.payments > .Line2 {
+  max-width: 2200px;
+  max-height: 100px;
+  margin: 0 auto;
+  padding: 0 30%;
 }
 
-	
-	section.main-bg h2{
-	color: #fd9f11;
-	font-size: 90px;
-    font-weight: normal;
-    text-align: left; 
-    
-    
-	}
-	
-	section.main-bg p{
-	text-align: left;
+.org {
+  padding: 30px;
+}
+.org2 {
+  padding: 80px;
+  left: 50px;
+}
+
+section.main-bg h2 {
+  color: #fd9f11;
+  font-size: 90px;
+  font-weight: normal;
+  text-align: left;
+}
+
+section.main-bg p {
+  text-align: left;
+  color: white;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.line-text {
+  position: relative;
+  display: inline-block;
+}
+
+.line-text div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 3px;
+  background: #52aaa7;
+}
+
+.line-text h2 {
+  color: #52aaa7;
+  font-weight: normal;
+  font-size: 27px;
+}
+
+section.separa {
+  background: #ffffff;
+  padding: 5px 0;
+}
+
+section.title-page > .container {
+  position: relative;
+  z-index: 101;
+}
+
+.overlay__title-page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section.footer {
+  background: #ec8208;
+  padding: 5px 0;
+  text-align: center;
+}
+
+section.footer > p{
 	color: white;
-	font-size: 17px;
-	margin-top: 15px;
-	}
-	
-	
-	.line-text{
-	position: relative;
-	display: inline-block;
-	}
-	
-	.line-text div{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 200px;
-	height: 3px;
-	background:#52aaa7;
-	}
-	
-	.line-text h2{
-	color: #52aaa7;
-	font-weight: normal;
-	font-size: 27px;
-	}
-	
-	
+}
 
-	
-	
-	section.separa{
-	background: #FFFFFF;
-	padding:5px 0;
-	}
-	
-	
-	
-	section.title-page > .container{position: relative;z-index: 101;}
-	
-	.overlay__title-page{
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 100;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.4);
-	}
-		
-	footer{
-padding: 20px;
-background-color: chocolate;
-color: white;
-    }
+.card-single {
+  width: 100%;
+}
 
+.card-single {
+  padding: 10px;
+}
 
-    
+.card .imgHolder {
+  height: 286px;
+  display:flex;
+  align-items:center;
+}
 
-	
-        
-		
-	
+.card .imgHolder img {
+  resize:contain;
+}
