@@ -2,11 +2,27 @@
 Theme Name: Casa Toronto
 
 */
+
+@font-face {
+  font-family: 'Libel Suit Rg';
+  src: url('LibelSuitRg-Regular.eot');
+  src: url('LibelSuitRg-Regular.eot?#iefix') format('embedded-opentype'),
+      url('LibelSuitRg-Regular.woff2') format('woff2'),
+      url('LibelSuitRg-Regular.woff') format('woff'),
+      url('LibelSuitRg-Regular.ttf') format('truetype'),
+      url('LibelSuitRg-Regular.svg#LibelSuitRg-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 .container {
   max-width: 2200px;
@@ -101,7 +117,8 @@ section.payments > .Line2 {
 
 section.main-bg h2 {
   color: #fd9f11;
-  font-size: 90px;
+  font-family: 'Libel Suit Rg';
+  font-size:100px;
   font-weight: normal;
   text-align: left;
 }
