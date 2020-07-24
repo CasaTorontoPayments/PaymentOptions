@@ -80,6 +80,7 @@ section.main-bg {
 
 section.payments > .center {
   display: flex;
+  justify-content: space-between;
 }
 
 
@@ -160,6 +161,12 @@ section.footer {
 
 section.footer > p{
 	color: white;
+}
+
+.card{
+  width:22%;
+  min-width:200px;
+  margin: 0 10px;
 }
 
 .card-single {
